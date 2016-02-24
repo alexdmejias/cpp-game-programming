@@ -1,15 +1,32 @@
-//
-//  main.cpp
-//  ch2
-//
-//  Created by Alex Mejias on 2/23/16.
-//  Copyright © 2016 Alex Mejias. All rights reserved.
-//
+// Guess My Number
 
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+using namespace std;
+
+int main() {
+    srand(static_cast<unsigned int>(time(0)));
+    
+    int secretNumber = rand() % 100 + 1;
+    int tries = 0;
+    int guess;
+    
+    cout << "\tWelcome to Guess My Number\n\n";
+
+    do {
+        cout << "Enter a guess: ";
+        cin >> guess;
+        ++tries;
+        
+        if (guess > secretNumber) {
+            cout << "Too High\n\n";
+        } else if (guess < secretNumber) {
+            cout << "Too Low\n\n";
+        } else {
+            cout << "\nThat's it! You got it in " << tries << " guesses!\n";
+        }
+    } while(guess != secretNumber);
+    
 }
