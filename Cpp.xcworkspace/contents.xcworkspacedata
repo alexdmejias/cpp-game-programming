@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ch4-inventory2.0/ch4-inventory2.0.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ch3-word-jumble/ch3-word-jumble.xcodeproj">
    </FileRef>
    <FileRef
