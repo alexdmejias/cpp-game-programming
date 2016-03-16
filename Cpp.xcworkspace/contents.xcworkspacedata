@@ -2,10 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:ch6-inventory-reference/ch6-inventory-reference.xcodeproj">
+      location = "group:ch6-tic-tac-toe/ch6-tic-tac-toe.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:/Users/alexmejias/Seafile/Projects/CPP/mad-lib/ch5-mad-lib.xcodeproj">
+      location = "group:ch6-inventory-reference/ch6-inventory-reference.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:ch6-references/ch6-references.xcodeproj">
