@@ -2,6 +2,21 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ch8-constructor-critter/ch8-constructor-critter.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ch8-critter/ch8-critter.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ch7-array-passer/ch7-array-passer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ch7-inventory-pointer-program/ch7-inventory-pointer-program.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ch7-pointing-program/ch7-pointing-program.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ch6-tic-tac-toe/ch6-tic-tac-toe.xcodeproj">
    </FileRef>
    <FileRef
