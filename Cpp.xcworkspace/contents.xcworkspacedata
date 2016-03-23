@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ch8-critter-caretaker/ch8-critter-caretaker.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ch8-static-critter/ch8-static-critter.xcodeproj">
    </FileRef>
    <FileRef
