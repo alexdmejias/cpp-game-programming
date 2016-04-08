@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ch10-overriding-boss-program/ch10-overriding-boss-program.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ch10-simple-boss/ch10-simple-boss.xcodeproj">
    </FileRef>
    <FileRef
