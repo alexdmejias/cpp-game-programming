@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ch10-polymorphic-bad-guy/ch10-polymorphic-bad-guy.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ch10-overriding-boss-program/ch10-overriding-boss-program.xcodeproj">
    </FileRef>
    <FileRef
